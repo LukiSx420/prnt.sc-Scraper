@@ -204,8 +204,6 @@ if __name__ == "__main__":
     verbose, findNudes, threads, tesseractPath = False, False, 3, "C:\\Program Files\\Tesseract-OCR\\tesseract"
     if "-h" in argv:
         print("\n > '-h' -> help menu\n > '-v' -> enable verbose\n > '-n' -> save nudes\n > '-t <THREAD_NUMBER>' -> run on ... threads\n > '-te <PATH>' -> set the tesseract path\n")
-        input(" > PRESS ENTER TO EXIT <")
-        exit()
     if "-v" in argv or "--verbose" in argv:
         verbose = True
     if "-n" in argv or "--nudes" in argv:
